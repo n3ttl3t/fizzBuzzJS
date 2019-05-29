@@ -1,4 +1,30 @@
-## Learning Objectives covered
+# FizzBuzz
+
+To learn javascript we have re-written FizzBuzz.
+
+To start, from root in terminal:
+```
+open Specrunner.html
+```
+Now in the page inspector console:
+
+- To make a new fizzbuzz objects:
+```
+fizzbuzz = new Fizzbuzz();
+```
+- To play, pass a number to fizzbuzz's say function:
+```
+fizzbuzz.says(1);
+```
+- To see what fizzbuzz says about all the numbers 1 to 100:
+```
+for(var i = 0; i <= 100; i++){ console.log(fizzbuzz.says(i)) };
+```
+
+---
+
+
+## Learning Javascript
 ---
 
 JavaScript is a scripting language built for the web, and is the main language of the web as it is used by 75% of websites. This is because it is the only language that can be executed in the browser.
@@ -26,6 +52,7 @@ hi = function(name) {return 'Hi ' + name;}
 hi('turtle')
 "Hi turtle"
 ```
+It is better to use var when declaring a variable because it scopes it to the closest gates.
 
 Here we created an empty object and gave it a function we can invoke with one parameter.
 
