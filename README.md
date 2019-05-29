@@ -8,8 +8,10 @@ Use the Chrome console as a REPL
 - Right click on web page > Inspect
 - Click on console
 
-```console.log("Hello, world")
-Hello, world```
+```
+console.log("Hello, world")
+Hello, world
+```
 
 Understand JavaScript language conventions.
 - The function keyword in JavaScript creates an object that can be invoked.
